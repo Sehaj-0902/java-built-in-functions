@@ -5,10 +5,10 @@ import java.time.format.DateTimeFormatter;
 
 public class DateFormatting {
 	public static void main(String[] args) {
-		// Get current date
+		// Get the current date
 		LocalDate currentDate = LocalDate.now();
 
-		// Formatter to display current date in three different formats
+		// Formatter to display the current date in three different formats
 		DateTimeFormatter dateTimeFormatter1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		DateTimeFormatter dateTimeFormatter2 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		DateTimeFormatter dateTimeFormatter3 = DateTimeFormatter.ofPattern("EEE, MMM dd, yyyy");
